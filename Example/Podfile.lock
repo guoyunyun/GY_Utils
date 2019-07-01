@@ -1,0 +1,16 @@
+PODS:
+  - GY_Utils (0.1.0)
+
+DEPENDENCIES:
+  - GY_Utils (from `../`)
+
+EXTERNAL SOURCES:
+  GY_Utils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GY_Utils: 11f347350439ec5fd9a903f8323aa689addc9a12
+
+PODFILE CHECKSUM: 7618b567d06d5b42d462adf685ec6f68e1ac6c48
+
+COCOAPODS: 1.6.0.beta.2

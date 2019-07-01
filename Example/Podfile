@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GY_Utils_Example' do
+  pod 'GY_Utils', :path => '../'
+
+  target 'GY_Utils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
