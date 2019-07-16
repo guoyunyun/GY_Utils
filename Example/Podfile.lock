@@ -1,5 +1,5 @@
 PODS:
-  - GY_Utils (1.1)
+  - GY_Utils (1.0)
 
 DEPENDENCIES:
   - GY_Utils (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GY_Utils: 8e58b4ccce27eb45f2be7f389d02867eb21edd16
+  GY_Utils: 6aa544c507bcf895007467bd21f019c9666dbd70
 
 PODFILE CHECKSUM: 7618b567d06d5b42d462adf685ec6f68e1ac6c48
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0

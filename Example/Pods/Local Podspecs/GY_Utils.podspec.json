@@ -1,6 +1,6 @@
 {
   "name": "GY_Utils",
-  "version": "1.1",
+  "version": "1.0",
   "summary": "My GY_Utils.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/guoyunyun/GY_Utils",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/guoyunyun/GY_Utils.git",
-    "tag": "1.1"
+    "tag": "1.0"
   },
   "platforms": {
     "ios": "9.0"
