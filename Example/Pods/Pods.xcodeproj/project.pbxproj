@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05D60597C7AA77720AC410BF452D7354 /* GYDeviceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C260C67FBA10AA0E5FC8B28B2F57ED /* GYDeviceData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0962DBD5076393EDC05FEFC8E4CAE55C /* NSString+GYExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9795021A0E3C0C87B76F791EE320D6 /* NSString+GYExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A9956543D6CC0AD525AA06CC24F27D8 /* GYEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B72C3FB425762EC3DE599C247ED9C1 /* GYEncryption.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FA1948576F3C812020791D06D578B1C /* GYImageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B82CD5C2B6F6ACDE4EF05C497731D82 /* GYImageHandle.m */; };
+		049CF009944729FED2ED3607B9232619 /* GYAPPInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 369BBA2B4D5129A7D69711CFE51BE44B /* GYAPPInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0597714F4D4ADA30DE75E6312A81DA64 /* GYTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C7C422C0F11E2624A1322C0C7DFBDD /* GYTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		059EE448FA582A3237A0A3ABAC3E1D2A /* GYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29187ABE8DD8250AC3393607263C8BF3 /* GYTabBarViewController.m */; };
+		19E837B66BC5B31B585C395ABF04D3A8 /* GYDeviceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EFD8BE9A126AD4225BA2046C74C64D /* GYDeviceData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B2A2CD0713D740E409B15C847FA58A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1D220374F17C7ED5C321ADFB14407555 /* GYAPPInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D55004FEF0D12BCE4CED9E422F5BA00 /* GYAPPInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4678D0299E6EAA0B36C6E56336D33D19 /* UIColor+GYExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DF58A4870C4CD16D60D754EFA123F9 /* UIColor+GYExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BCE7FFA915224B8192FCC62D3C3793E /* NSString+GYExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 771931D13F5A81485E5671C334027654 /* NSString+GYExtend.m */; };
-		4F6CF45A192AC98093B4244DF127F3D9 /* GYAPPInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 021BE9B60A18683595146394A64DD79C /* GYAPPInfo.m */; };
+		2452779D0B245C5DDCD521E9D3659661 /* GYImageCropperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D1B50B3317DA1C4E2CA25F78CE3BE4 /* GYImageCropperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255AA3B5FCDBDEC29839C2A8A5923CD4 /* GYImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B921266E46C8EB6076031DB96684CB39 /* GYImageCropperViewController.m */; };
+		25941D68101D76BB19954A765A2CC634 /* GYKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F37156DDFFE762BEC4B9195E96204E /* GYKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25E1E01F1CB6A62EAED5EDC2000AD1BC /* NSString+GYExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DCF687C7DD5B2E47F113FEF6FC3969 /* NSString+GYExtend.m */; };
+		3E5DEB3876DD613978B463616A3E6133 /* GYImagePickerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7445BD10584665E87A6E4276DFCE45 /* GYImagePickerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B211D89B3AC4B496E1BEFC4FAA9E2B /* GYEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB2E492C97B4DD023B50318600C539E /* GYEncryption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5558FA21B85F06FFE50A29F4E23247A7 /* UIColor+GYExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A29F94B032DE3DD80402CDC9AF2F89 /* UIColor+GYExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60F487DEA9A5750761C54E7AE72A8954 /* Pods-GY_Utils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C0DCA96F8AD6469941E30165E63FA8 /* Pods-GY_Utils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		686DA7A8C43D605C076E57EE4FE703C3 /* UIColor+GYExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BF3F2505A00C7BA19ABA65F76AEA43 /* UIColor+GYExtend.m */; };
+		61451BA395AED3C935140E929322AD08 /* GYTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABDEAD879372DD6122DAB1A7F42F53E /* GYTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		622FBE5748A467A361E88812553FE6F9 /* GYImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EFC64D8E2D633370CA02D5A552A987 /* GYImagePickerTool.m */; };
 		6A6CCE958AA7D8FB9E081B7A2B81BD2F /* Pods-GY_Utils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C492DBAC3C4D5E09886DF5E908D0B8 /* Pods-GY_Utils_Tests-dummy.m */; };
-		70F33FB7769451F8A35310A79070CCBA /* GY_Utils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415442EE6BD85B8E9598E41AE71C64B3 /* GY_Utils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D802B62EB635E9F1AC3B63E5FBEFAF3 /* GYImageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E526E1AF4E8F5E4A96C4317E8AEDB /* GYImageHandle.m */; };
+		71F8135E21D2098025F9A0C929060FC3 /* GYDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84921EBF36938D7400FD7A080DC233B8 /* GYDeviceData.m */; };
 		765D7E9B5A4BE2B2EAEE1BADE130A629 /* Pods-GY_Utils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFA311C4379F1806B268FC844225687 /* Pods-GY_Utils_Example-dummy.m */; };
-		768282C7E35F7D2C7558B1A03B33724E /* GYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEE98237E68AD7D10D3AF1DE4DCCA75 /* GYTabBarViewController.m */; };
-		7A2FE3BA6EB62A6FE60AF8B3DC68ABF3 /* GYDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CBF04270262C8946BA3001FBE324B6 /* GYDeviceData.m */; };
-		7BA7C9FA2F021357083D949EC62A24C5 /* GYImageHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 336B4DEFE01252754E4DBBD4E25147AC /* GYImageHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E343110DE75A40A337708A9ACA6F2B4 /* GYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 686D88E8306A8463BD5C039BD3F42AA5 /* GYTabBar.m */; };
-		8938CD2629551A5CE3AD699115B136DF /* GYKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8A048A11F4FCE9FA250BDC587B0867 /* GYKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D4D981610CC898D82FB39D25BB18223 /* GY_Utils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3888EBD1A018883B28D1B7AE6A9CEB /* GY_Utils-dummy.m */; };
+		857F42DDBFB7864BF79039DAE2FCF5FE /* GYAPPInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D75F5981C138D8DC926FD45111B549B6 /* GYAPPInfo.m */; };
+		8AA14996DAE2CC3BE238428D8B0D2EB3 /* GYFuncUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 385B38E6DFE18BF12CC79340D087A1C1 /* GYFuncUtils.m */; };
 		92192A814E3EAB0DAC1E03AA78760F02 /* Pods-GY_Utils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F3E07DDCBB21FD8F48B728BA664098 /* Pods-GY_Utils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93F8575366A7F031F3066732FE339992 /* UITabBar+GYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7F49C106583F00AC8EB73DDC306061 /* UITabBar+GYBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1D1F6086048869868CC5C138AD2C9DC /* GYTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF0AC15F35EC70788297949DFB815B5 /* GYTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B37AF9AF35F1469DE92ECBE6E2BC321F /* GYEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6C9FC69E8EA346B216938E278B704 /* GYEncryption.m */; };
-		C395C1B2AB8C1DA5784E69A073E66EF6 /* GYImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 176AEF7DB038768A86C153B71D388CF5 /* GYImagePickerTool.m */; };
-		DE1D9EC64674806ED0F449D4AFCDE67A /* GYKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F926E69E22632F7220CC018929EAF3B5 /* GYKeyChain.m */; };
-		E1B01C8619587F75CA7FECDCA2FCEE12 /* GYImagePickerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A773CF5416E94FC18FDBFC165BF84E50 /* GYImagePickerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBFFD15BD1002E1ED0D6CE9321C54364 /* GYFuncUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F414B491E0F2A46007EAE26C9301D514 /* GYFuncUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F111BB90DD02FBDEDEC44EBE5A3371A4 /* GYTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDB53734D9D6F7289DE98888948F0A4 /* GYTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F450651A3B945B813731CB1D9D19A5AB /* GYFuncUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBFD6ED3423B429DE226CB6C04DD664 /* GYFuncUtils.m */; };
-		F5BBF48E57AB36F330B6476707222A59 /* UITabBar+GYBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D36A372384189C5ED0A075898A20B /* UITabBar+GYBadge.m */; };
-		FD84814B3109FBA3AEEC5D9E31F7612F /* GYImageCropperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C0A6756151580771483DA590442E65 /* GYImageCropperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96DDEFECF235DDFDFB3ABA9BC849E63B /* GYEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5F3159646AC8C24889B9C521D07199 /* GYEncryption.m */; };
+		975F1603D203ACED6E770F52388260D1 /* UITabBar+GYBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = E31D08BF22E86ACE2F0D51F65FB3AD03 /* UITabBar+GYBadge.m */; };
+		B33F8937C81617B92F94B4F888F3ECDD /* GYKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C22EA488FE9E0637CB98269A5EBF33 /* GYKeyChain.m */; };
+		BA35A416FC06B0D575D678932D4DDED8 /* GYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0595D761AB332F4ED12986A5AED004 /* GYTabBar.m */; };
+		BEDB0190CBD487B26B4411FF23236DE4 /* NSString+GYExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBF8DB03270B4786CE2D6690350170F /* NSString+GYExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F3E52F439F539ACCD4ABC731376303 /* GYImageHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2CD80406BEDB82FFDDCEE06F135AD5 /* GYImageHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E58F9CD62DAF8B94080893785CDAD0A5 /* GYFuncUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2430B165E0CE81410D6A031DFF94DA /* GYFuncUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5CB41DDB6FD79F73FD2AC1F49B3A099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E71DFCDBECE00643968BD4A1F98D8B31 /* GY_Utils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A13BA1A987A0822A7E1D1CBAAAC5D060 /* GY_Utils-dummy.m */; };
+		E9D61A2F28D1DCFA4FAC6646DF54A655 /* UITabBar+GYBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A1FF4548B2851CAF88487897364CA3 /* UITabBar+GYBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAB7D56D41932894F82C0A319690D837 /* GY_Utils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E1EACBB135006CECBCF0FA7624C837 /* GY_Utils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE50C5A27A85D668C124116E6211E9B7 /* UIColor+GYExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ABA50A00163CC83F3BCC7991BEE8E6 /* UIColor+GYExtend.m */; };
 		FF56011A8CCF382982BA53EDA618665C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FF58AD1607A33AD37357DCE32B1EF3B7 /* GYImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 024F1606DFCC556A2B9EED2FA76BB823 /* GYImageCropperViewController.m */; };
-		FF7D2FDEBCE9F2A22E1C72B679C2E6CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,62 +62,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0083186AF968254F90DF6DF3EABFD690 /* GY_Utils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GY_Utils-Info.plist"; sourceTree = "<group>"; };
-		021BE9B60A18683595146394A64DD79C /* GYAPPInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYAPPInfo.m; sourceTree = "<group>"; };
-		024F1606DFCC556A2B9EED2FA76BB823 /* GYImageCropperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYImageCropperViewController.m; sourceTree = "<group>"; };
-		08BF3F2505A00C7BA19ABA65F76AEA43 /* UIColor+GYExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GYExtend.m"; sourceTree = "<group>"; };
 		09C0DCA96F8AD6469941E30165E63FA8 /* Pods-GY_Utils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GY_Utils_Example-umbrella.h"; sourceTree = "<group>"; };
 		0A7747CEAD7ECBAD6668CD29843619BC /* Pods-GY_Utils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GY_Utils_Tests-Info.plist"; sourceTree = "<group>"; };
-		0F43789DAA03CB9E504BEC8ACD1A01A1 /* GY_Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GY_Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		176AEF7DB038768A86C153B71D388CF5 /* GYImagePickerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYImagePickerTool.m; sourceTree = "<group>"; };
-		1CBFD6ED3423B429DE226CB6C04DD664 /* GYFuncUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYFuncUtils.m; sourceTree = "<group>"; };
-		1D5D36A372384189C5ED0A075898A20B /* UITabBar+GYBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+GYBadge.m"; sourceTree = "<group>"; };
+		0F43789DAA03CB9E504BEC8ACD1A01A1 /* GY_Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GY_Utils.framework; path = GY_Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F37156DDFFE762BEC4B9195E96204E /* GYKeyChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYKeyChain.h; sourceTree = "<group>"; };
+		14C7C422C0F11E2624A1322C0C7DFBDD /* GYTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYTabBar.h; sourceTree = "<group>"; };
+		15EFD8BE9A126AD4225BA2046C74C64D /* GYDeviceData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYDeviceData.h; sourceTree = "<group>"; };
+		1FBF8DB03270B4786CE2D6690350170F /* NSString+GYExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GYExtend.h"; sourceTree = "<group>"; };
 		28C492DBAC3C4D5E09886DF5E908D0B8 /* Pods-GY_Utils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GY_Utils_Tests-dummy.m"; sourceTree = "<group>"; };
-		2D55004FEF0D12BCE4CED9E422F5BA00 /* GYAPPInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYAPPInfo.h; sourceTree = "<group>"; };
+		29187ABE8DD8250AC3393607263C8BF3 /* GYTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYTabBarViewController.m; sourceTree = "<group>"; };
+		2E013D65EE3B828EFF89F13E6D593593 /* GY_Utils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GY_Utils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		336B4DEFE01252754E4DBBD4E25147AC /* GYImageHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYImageHandle.h; sourceTree = "<group>"; };
 		34BBE50C63B8B402DCDFB7E1F5114F06 /* Pods-GY_Utils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GY_Utils_Tests.modulemap"; sourceTree = "<group>"; };
-		3AF6C9FC69E8EA346B216938E278B704 /* GYEncryption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYEncryption.m; sourceTree = "<group>"; };
-		415442EE6BD85B8E9598E41AE71C64B3 /* GY_Utils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GY_Utils-umbrella.h"; sourceTree = "<group>"; };
-		43C0A6756151580771483DA590442E65 /* GYImageCropperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYImageCropperViewController.h; sourceTree = "<group>"; };
+		369BBA2B4D5129A7D69711CFE51BE44B /* GYAPPInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYAPPInfo.h; sourceTree = "<group>"; };
+		385B38E6DFE18BF12CC79340D087A1C1 /* GYFuncUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYFuncUtils.m; sourceTree = "<group>"; };
+		3A2CD80406BEDB82FFDDCEE06F135AD5 /* GYImageHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYImageHandle.h; sourceTree = "<group>"; };
+		3A5C20602BB04476F1884E8EE43F5558 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4E6D2BEBD4F234A81AFE379EFFFA2724 /* Pods-GY_Utils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GY_Utils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5E7F49C106583F00AC8EB73DDC306061 /* UITabBar+GYBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBar+GYBadge.h"; sourceTree = "<group>"; };
-		67E6BB310DA2619765C9875C232C34FA /* GY_Utils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GY_Utils.xcconfig; sourceTree = "<group>"; };
-		686D88E8306A8463BD5C039BD3F42AA5 /* GYTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYTabBar.m; sourceTree = "<group>"; };
-		71B72C3FB425762EC3DE599C247ED9C1 /* GYEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYEncryption.h; sourceTree = "<group>"; };
+		61A1FF4548B2851CAF88487897364CA3 /* UITabBar+GYBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBar+GYBadge.h"; sourceTree = "<group>"; };
 		71B964928F95BF349BC228629721AA89 /* Pods-GY_Utils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GY_Utils_Example.modulemap"; sourceTree = "<group>"; };
+		72D1B50B3317DA1C4E2CA25F78CE3BE4 /* GYImageCropperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYImageCropperViewController.h; sourceTree = "<group>"; };
+		72E1EACBB135006CECBCF0FA7624C837 /* GY_Utils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GY_Utils-umbrella.h"; sourceTree = "<group>"; };
 		767F5AA66A82BFB7F89B324B37C7B3C8 /* Pods-GY_Utils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GY_Utils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		771931D13F5A81485E5671C334027654 /* NSString+GYExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GYExtend.m"; sourceTree = "<group>"; };
+		782DB76486C548452B1CB1BAD720D8A8 /* GY_Utils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GY_Utils.xcconfig; sourceTree = "<group>"; };
+		7C2430B165E0CE81410D6A031DFF94DA /* GYFuncUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYFuncUtils.h; sourceTree = "<group>"; };
 		7D3DE16C3FF83CF84C345657DB582B73 /* Pods-GY_Utils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GY_Utils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7DDB53734D9D6F7289DE98888948F0A4 /* GYTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYTabBar.h; sourceTree = "<group>"; };
-		80EFA1689BAA3C205FA220FC868301EB /* GY_Utils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GY_Utils.modulemap; sourceTree = "<group>"; };
-		85C260C67FBA10AA0E5FC8B28B2F57ED /* GYDeviceData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYDeviceData.h; sourceTree = "<group>"; };
+		80DCF687C7DD5B2E47F113FEF6FC3969 /* NSString+GYExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GYExtend.m"; sourceTree = "<group>"; };
+		81C22EA488FE9E0637CB98269A5EBF33 /* GYKeyChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYKeyChain.m; sourceTree = "<group>"; };
+		84921EBF36938D7400FD7A080DC233B8 /* GYDeviceData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYDeviceData.m; sourceTree = "<group>"; };
 		886FFB3177E3A9D5467C5DEB9F9C5AF0 /* Pods-GY_Utils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GY_Utils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		88CBF04270262C8946BA3001FBE324B6 /* GYDeviceData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYDeviceData.m; sourceTree = "<group>"; };
-		8B82CD5C2B6F6ACDE4EF05C497731D82 /* GYImageHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYImageHandle.m; sourceTree = "<group>"; };
-		8E3888EBD1A018883B28D1B7AE6A9CEB /* GY_Utils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GY_Utils-dummy.m"; sourceTree = "<group>"; };
+		8ABDEAD879372DD6122DAB1A7F42F53E /* GYTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYTabBarViewController.h; sourceTree = "<group>"; };
+		91039FB3D1556CE5AEDA3CBD51240412 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		998E526E1AF4E8F5E4A96C4317E8AEDB /* GYImageHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYImageHandle.m; sourceTree = "<group>"; };
 		99F3E07DDCBB21FD8F48B728BA664098 /* Pods-GY_Utils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GY_Utils_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9BF0AC15F35EC70788297949DFB815B5 /* GYTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYTabBarViewController.h; sourceTree = "<group>"; };
 		9CDF64FF29A6A66BD47D9A321FEFCA7D /* Pods-GY_Utils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GY_Utils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A773CF5416E94FC18FDBFC165BF84E50 /* GYImagePickerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYImagePickerTool.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A13BA1A987A0822A7E1D1CBAAAC5D060 /* GY_Utils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GY_Utils-dummy.m"; sourceTree = "<group>"; };
+		AF7445BD10584665E87A6E4276DFCE45 /* GYImagePickerTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYImagePickerTool.h; sourceTree = "<group>"; };
+		B19C13140F75798F80A1FD5E71B97F95 /* GY_Utils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GY_Utils-Info.plist"; sourceTree = "<group>"; };
+		B2DA1E8B183CDB806A121B871CEE0E35 /* GY_Utils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GY_Utils-prefix.pch"; sourceTree = "<group>"; };
+		B6ABA50A00163CC83F3BCC7991BEE8E6 /* UIColor+GYExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GYExtend.m"; sourceTree = "<group>"; };
+		B921266E46C8EB6076031DB96684CB39 /* GYImageCropperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYImageCropperViewController.m; sourceTree = "<group>"; };
+		BBB2E492C97B4DD023B50318600C539E /* GYEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYEncryption.h; sourceTree = "<group>"; };
+		BC5F3159646AC8C24889B9C521D07199 /* GYEncryption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYEncryption.m; sourceTree = "<group>"; };
 		BDCF2949C69D438141967865268DC8CC /* Pods-GY_Utils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GY_Utils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BEEE98237E68AD7D10D3AF1DE4DCCA75 /* GYTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYTabBarViewController.m; sourceTree = "<group>"; };
 		C86909FEB4B8531D5F15AAE66C26ADD0 /* Pods-GY_Utils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GY_Utils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC7EA78DF511EF13F04D694D449C4FDF /* Pods_GY_Utils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GY_Utils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7EA78DF511EF13F04D694D449C4FDF /* Pods_GY_Utils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GY_Utils_Example.framework; path = "Pods-GY_Utils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF59A9D6830447BFEC06FAA8D05D637C /* Pods-GY_Utils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GY_Utils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D31309B14F19AE81798CAD53E2035842 /* Pods_GY_Utils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GY_Utils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D42A8C827A3174ACEB07D788677ABB3A /* GY_Utils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GY_Utils-prefix.pch"; sourceTree = "<group>"; };
-		D653CDCBBCB5A479D56D558444C0982B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D31309B14F19AE81798CAD53E2035842 /* Pods_GY_Utils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GY_Utils_Tests.framework; path = "Pods-GY_Utils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75F5981C138D8DC926FD45111B549B6 /* GYAPPInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYAPPInfo.m; sourceTree = "<group>"; };
+		D9EFC64D8E2D633370CA02D5A552A987 /* GYImagePickerTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYImagePickerTool.m; sourceTree = "<group>"; };
 		DB6B62E8F9579E0A952CDD57BCF638B0 /* Pods-GY_Utils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GY_Utils_Example-Info.plist"; sourceTree = "<group>"; };
+		DF0595D761AB332F4ED12986A5AED004 /* GYTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYTabBar.m; sourceTree = "<group>"; };
+		E31D08BF22E86ACE2F0D51F65FB3AD03 /* UITabBar+GYBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+GYBadge.m"; sourceTree = "<group>"; };
 		E55E078CD16CD6C16048079B675585A9 /* Pods-GY_Utils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GY_Utils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E5E2D6E7FFB487C176AE0C5E7FE55AC9 /* GY_Utils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GY_Utils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E7DF58A4870C4CD16D60D754EFA123F9 /* UIColor+GYExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+GYExtend.h"; sourceTree = "<group>"; };
-		EBA2E3075F4F2F6626461F187F82B919 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EC8A048A11F4FCE9FA250BDC587B0867 /* GYKeyChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYKeyChain.h; sourceTree = "<group>"; };
-		F414B491E0F2A46007EAE26C9301D514 /* GYFuncUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYFuncUtils.h; sourceTree = "<group>"; };
-		F926E69E22632F7220CC018929EAF3B5 /* GYKeyChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYKeyChain.m; sourceTree = "<group>"; };
-		FE9795021A0E3C0C87B76F791EE320D6 /* NSString+GYExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GYExtend.h"; sourceTree = "<group>"; };
+		ECF85334E2C312877267807A1D2EE22F /* GY_Utils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GY_Utils.modulemap; sourceTree = "<group>"; };
+		F1A29F94B032DE3DD80402CDC9AF2F89 /* UIColor+GYExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+GYExtend.h"; sourceTree = "<group>"; };
 		FEFA311C4379F1806B268FC844225687 /* Pods-GY_Utils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GY_Utils_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,11 +130,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2CD6DBDDE9E647903DE15A709C11936 /* Frameworks */ = {
+		B0DE49193D45C352B487F74066F9040D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7D2FDEBCE9F2A22E1C72B679C2E6CB /* Foundation.framework in Frameworks */,
+				E5CB41DDB6FD79F73FD2AC1F49B3A099 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,38 +149,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		465D6A173660D541EE07A79B2A6AA09E /* Utils */ = {
+		162A234D84BEE50F033133F6E2126CFB /* GY_Utils */ = {
 			isa = PBXGroup;
 			children = (
-				2D55004FEF0D12BCE4CED9E422F5BA00 /* GYAPPInfo.h */,
-				021BE9B60A18683595146394A64DD79C /* GYAPPInfo.m */,
-				85C260C67FBA10AA0E5FC8B28B2F57ED /* GYDeviceData.h */,
-				88CBF04270262C8946BA3001FBE324B6 /* GYDeviceData.m */,
-				71B72C3FB425762EC3DE599C247ED9C1 /* GYEncryption.h */,
-				3AF6C9FC69E8EA346B216938E278B704 /* GYEncryption.m */,
-				F414B491E0F2A46007EAE26C9301D514 /* GYFuncUtils.h */,
-				1CBFD6ED3423B429DE226CB6C04DD664 /* GYFuncUtils.m */,
-				336B4DEFE01252754E4DBBD4E25147AC /* GYImageHandle.h */,
-				8B82CD5C2B6F6ACDE4EF05C497731D82 /* GYImageHandle.m */,
-				EC8A048A11F4FCE9FA250BDC587B0867 /* GYKeyChain.h */,
-				F926E69E22632F7220CC018929EAF3B5 /* GYKeyChain.m */,
-			);
-			name = Utils;
-			path = GY_Utils/Classes/Utils;
-			sourceTree = "<group>";
-		};
-		670F7ABC1764F6DAE1B3F6E5AD579E4E /* GY_Utils */ = {
-			isa = PBXGroup;
-			children = (
-				A8BF53979C63AF3620CA434022E62104 /* Category */,
-				C0ABE4FF9097B89DE998F58ED372CC23 /* GYImagePickerTool */,
-				E5EDB086EA0CB6A026B9740620B8748D /* GYTabBar */,
-				EAF831FF093A15B11DD93B0CD56F2BD0 /* Pod */,
-				FFCC381855120E00FC68A8161A0AD045 /* Support Files */,
-				465D6A173660D541EE07A79B2A6AA09E /* Utils */,
+				1D7A5FD28A22146352F21A10B9222325 /* Category */,
+				5ABE7BBBB42FD793993D91771F6142F2 /* GYImagePickerTool */,
+				C29448A7440B7DFCAF188BDC8BB35712 /* GYTabBar */,
+				83B6A892B9E3E6C91CB03D0660E3D6C4 /* Pod */,
+				85460B7D852864854F77458D8B0C771E /* Support Files */,
+				7E173C6AB59ADA4B39D262FFAD9F1559 /* Utils */,
 			);
 			name = GY_Utils;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D7A5FD28A22146352F21A10B9222325 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF8DB03270B4786CE2D6690350170F /* NSString+GYExtend.h */,
+				80DCF687C7DD5B2E47F113FEF6FC3969 /* NSString+GYExtend.m */,
+				F1A29F94B032DE3DD80402CDC9AF2F89 /* UIColor+GYExtend.h */,
+				B6ABA50A00163CC83F3BCC7991BEE8E6 /* UIColor+GYExtend.m */,
+			);
+			name = Category;
+			path = GY_Utils/Classes/Category;
+			sourceTree = "<group>";
+		};
+		5ABE7BBBB42FD793993D91771F6142F2 /* GYImagePickerTool */ = {
+			isa = PBXGroup;
+			children = (
+				72D1B50B3317DA1C4E2CA25F78CE3BE4 /* GYImageCropperViewController.h */,
+				B921266E46C8EB6076031DB96684CB39 /* GYImageCropperViewController.m */,
+				AF7445BD10584665E87A6E4276DFCE45 /* GYImagePickerTool.h */,
+				D9EFC64D8E2D633370CA02D5A552A987 /* GYImagePickerTool.m */,
+			);
+			name = GYImagePickerTool;
+			path = GY_Utils/Classes/GYImagePickerTool;
 			sourceTree = "<group>";
 		};
 		674F9A3107E7D1AC452F6C376212C2AB /* Products */ = {
@@ -202,24 +206,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7E173C6AB59ADA4B39D262FFAD9F1559 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				369BBA2B4D5129A7D69711CFE51BE44B /* GYAPPInfo.h */,
+				D75F5981C138D8DC926FD45111B549B6 /* GYAPPInfo.m */,
+				15EFD8BE9A126AD4225BA2046C74C64D /* GYDeviceData.h */,
+				84921EBF36938D7400FD7A080DC233B8 /* GYDeviceData.m */,
+				BBB2E492C97B4DD023B50318600C539E /* GYEncryption.h */,
+				BC5F3159646AC8C24889B9C521D07199 /* GYEncryption.m */,
+				7C2430B165E0CE81410D6A031DFF94DA /* GYFuncUtils.h */,
+				385B38E6DFE18BF12CC79340D087A1C1 /* GYFuncUtils.m */,
+				3A2CD80406BEDB82FFDDCEE06F135AD5 /* GYImageHandle.h */,
+				998E526E1AF4E8F5E4A96C4317E8AEDB /* GYImageHandle.m */,
+				10F37156DDFFE762BEC4B9195E96204E /* GYKeyChain.h */,
+				81C22EA488FE9E0637CB98269A5EBF33 /* GYKeyChain.m */,
+			);
+			name = Utils;
+			path = GY_Utils/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		83B6A892B9E3E6C91CB03D0660E3D6C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E013D65EE3B828EFF89F13E6D593593 /* GY_Utils.podspec */,
+				3A5C20602BB04476F1884E8EE43F5558 /* LICENSE */,
+				91039FB3D1556CE5AEDA3CBD51240412 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		85460B7D852864854F77458D8B0C771E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECF85334E2C312877267807A1D2EE22F /* GY_Utils.modulemap */,
+				782DB76486C548452B1CB1BAD720D8A8 /* GY_Utils.xcconfig */,
+				A13BA1A987A0822A7E1D1CBAAAC5D060 /* GY_Utils-dummy.m */,
+				B19C13140F75798F80A1FD5E71B97F95 /* GY_Utils-Info.plist */,
+				B2DA1E8B183CDB806A121B871CEE0E35 /* GY_Utils-prefix.pch */,
+				72E1EACBB135006CECBCF0FA7624C837 /* GY_Utils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GY_Utils";
+			sourceTree = "<group>";
+		};
 		8A736442AA2D7FA6D69014C6A60D9A3E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				670F7ABC1764F6DAE1B3F6E5AD579E4E /* GY_Utils */,
+				162A234D84BEE50F033133F6E2126CFB /* GY_Utils */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A8BF53979C63AF3620CA434022E62104 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				FE9795021A0E3C0C87B76F791EE320D6 /* NSString+GYExtend.h */,
-				771931D13F5A81485E5671C334027654 /* NSString+GYExtend.m */,
-				E7DF58A4870C4CD16D60D754EFA123F9 /* UIColor+GYExtend.h */,
-				08BF3F2505A00C7BA19ABA65F76AEA43 /* UIColor+GYExtend.m */,
-			);
-			name = Category;
-			path = GY_Utils/Classes/Category;
 			sourceTree = "<group>";
 		};
 		B7C5732D6A9114AA3561E090255539DA /* Pods-GY_Utils_Example */ = {
@@ -247,16 +283,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C0ABE4FF9097B89DE998F58ED372CC23 /* GYImagePickerTool */ = {
+		C29448A7440B7DFCAF188BDC8BB35712 /* GYTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				43C0A6756151580771483DA590442E65 /* GYImageCropperViewController.h */,
-				024F1606DFCC556A2B9EED2FA76BB823 /* GYImageCropperViewController.m */,
-				A773CF5416E94FC18FDBFC165BF84E50 /* GYImagePickerTool.h */,
-				176AEF7DB038768A86C153B71D388CF5 /* GYImagePickerTool.m */,
+				14C7C422C0F11E2624A1322C0C7DFBDD /* GYTabBar.h */,
+				DF0595D761AB332F4ED12986A5AED004 /* GYTabBar.m */,
+				8ABDEAD879372DD6122DAB1A7F42F53E /* GYTabBarViewController.h */,
+				29187ABE8DD8250AC3393607263C8BF3 /* GYTabBarViewController.m */,
+				61A1FF4548B2851CAF88487897364CA3 /* UITabBar+GYBadge.h */,
+				E31D08BF22E86ACE2F0D51F65FB3AD03 /* UITabBar+GYBadge.m */,
 			);
-			name = GYImagePickerTool;
-			path = GY_Utils/Classes/GYImagePickerTool;
+			name = GYTabBar;
+			path = GY_Utils/Classes/GYTabBar;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -294,65 +332,27 @@
 			path = "Target Support Files/Pods-GY_Utils_Tests";
 			sourceTree = "<group>";
 		};
-		E5EDB086EA0CB6A026B9740620B8748D /* GYTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				7DDB53734D9D6F7289DE98888948F0A4 /* GYTabBar.h */,
-				686D88E8306A8463BD5C039BD3F42AA5 /* GYTabBar.m */,
-				9BF0AC15F35EC70788297949DFB815B5 /* GYTabBarViewController.h */,
-				BEEE98237E68AD7D10D3AF1DE4DCCA75 /* GYTabBarViewController.m */,
-				5E7F49C106583F00AC8EB73DDC306061 /* UITabBar+GYBadge.h */,
-				1D5D36A372384189C5ED0A075898A20B /* UITabBar+GYBadge.m */,
-			);
-			name = GYTabBar;
-			path = GY_Utils/Classes/GYTabBar;
-			sourceTree = "<group>";
-		};
-		EAF831FF093A15B11DD93B0CD56F2BD0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E5E2D6E7FFB487C176AE0C5E7FE55AC9 /* GY_Utils.podspec */,
-				EBA2E3075F4F2F6626461F187F82B919 /* LICENSE */,
-				D653CDCBBCB5A479D56D558444C0982B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FFCC381855120E00FC68A8161A0AD045 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				80EFA1689BAA3C205FA220FC868301EB /* GY_Utils.modulemap */,
-				67E6BB310DA2619765C9875C232C34FA /* GY_Utils.xcconfig */,
-				8E3888EBD1A018883B28D1B7AE6A9CEB /* GY_Utils-dummy.m */,
-				0083186AF968254F90DF6DF3EABFD690 /* GY_Utils-Info.plist */,
-				D42A8C827A3174ACEB07D788677ABB3A /* GY_Utils-prefix.pch */,
-				415442EE6BD85B8E9598E41AE71C64B3 /* GY_Utils-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GY_Utils";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		542A505BCE8B26CC0ED61E398718A549 /* Headers */ = {
+		67AD1B6D22AA860AAA8A4BFE46B4BF12 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70F33FB7769451F8A35310A79070CCBA /* GY_Utils-umbrella.h in Headers */,
-				1D220374F17C7ED5C321ADFB14407555 /* GYAPPInfo.h in Headers */,
-				05D60597C7AA77720AC410BF452D7354 /* GYDeviceData.h in Headers */,
-				0A9956543D6CC0AD525AA06CC24F27D8 /* GYEncryption.h in Headers */,
-				EBFFD15BD1002E1ED0D6CE9321C54364 /* GYFuncUtils.h in Headers */,
-				FD84814B3109FBA3AEEC5D9E31F7612F /* GYImageCropperViewController.h in Headers */,
-				7BA7C9FA2F021357083D949EC62A24C5 /* GYImageHandle.h in Headers */,
-				E1B01C8619587F75CA7FECDCA2FCEE12 /* GYImagePickerTool.h in Headers */,
-				8938CD2629551A5CE3AD699115B136DF /* GYKeyChain.h in Headers */,
-				F111BB90DD02FBDEDEC44EBE5A3371A4 /* GYTabBar.h in Headers */,
-				B1D1F6086048869868CC5C138AD2C9DC /* GYTabBarViewController.h in Headers */,
-				0962DBD5076393EDC05FEFC8E4CAE55C /* NSString+GYExtend.h in Headers */,
-				4678D0299E6EAA0B36C6E56336D33D19 /* UIColor+GYExtend.h in Headers */,
-				93F8575366A7F031F3066732FE339992 /* UITabBar+GYBadge.h in Headers */,
+				EAB7D56D41932894F82C0A319690D837 /* GY_Utils-umbrella.h in Headers */,
+				049CF009944729FED2ED3607B9232619 /* GYAPPInfo.h in Headers */,
+				19E837B66BC5B31B585C395ABF04D3A8 /* GYDeviceData.h in Headers */,
+				42B211D89B3AC4B496E1BEFC4FAA9E2B /* GYEncryption.h in Headers */,
+				E58F9CD62DAF8B94080893785CDAD0A5 /* GYFuncUtils.h in Headers */,
+				2452779D0B245C5DDCD521E9D3659661 /* GYImageCropperViewController.h in Headers */,
+				C1F3E52F439F539ACCD4ABC731376303 /* GYImageHandle.h in Headers */,
+				3E5DEB3876DD613978B463616A3E6133 /* GYImagePickerTool.h in Headers */,
+				25941D68101D76BB19954A765A2CC634 /* GYKeyChain.h in Headers */,
+				0597714F4D4ADA30DE75E6312A81DA64 /* GYTabBar.h in Headers */,
+				61451BA395AED3C935140E929322AD08 /* GYTabBarViewController.h in Headers */,
+				BEDB0190CBD487B26B4411FF23236DE4 /* NSString+GYExtend.h in Headers */,
+				5558FA21B85F06FFE50A29F4E23247A7 /* UIColor+GYExtend.h in Headers */,
+				E9D61A2F28D1DCFA4FAC6646DF54A655 /* UITabBar+GYBadge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,12 +396,12 @@
 		};
 		6F356E479DA75FC375F128F796DD5F09 /* GY_Utils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AAFD804B08497849D48DECA0BD05F70 /* Build configuration list for PBXNativeTarget "GY_Utils" */;
+			buildConfigurationList = DAD8DCFB46845552CA6178B23F09D793 /* Build configuration list for PBXNativeTarget "GY_Utils" */;
 			buildPhases = (
-				542A505BCE8B26CC0ED61E398718A549 /* Headers */,
-				6F2371E3B43FC4019D0913C42667344D /* Sources */,
-				A2CD6DBDDE9E647903DE15A709C11936 /* Frameworks */,
-				E11378CDC619DE5AFC471BF2D772B32F /* Resources */,
+				67AD1B6D22AA860AAA8A4BFE46B4BF12 /* Headers */,
+				C0B3F42E2695387B42D965C356CBA228 /* Sources */,
+				B0DE49193D45C352B487F74066F9040D /* Frameworks */,
+				4EE54EE91807385D2A2A82D7EEC9E476 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -467,14 +467,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1D6967069F47CEE63BDE9F44C639A45 /* Resources */ = {
+		4EE54EE91807385D2A2A82D7EEC9E476 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E11378CDC619DE5AFC471BF2D772B32F /* Resources */ = {
+		A1D6967069F47CEE63BDE9F44C639A45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -484,24 +484,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F2371E3B43FC4019D0913C42667344D /* Sources */ = {
+		C0B3F42E2695387B42D965C356CBA228 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4D981610CC898D82FB39D25BB18223 /* GY_Utils-dummy.m in Sources */,
-				4F6CF45A192AC98093B4244DF127F3D9 /* GYAPPInfo.m in Sources */,
-				7A2FE3BA6EB62A6FE60AF8B3DC68ABF3 /* GYDeviceData.m in Sources */,
-				B37AF9AF35F1469DE92ECBE6E2BC321F /* GYEncryption.m in Sources */,
-				F450651A3B945B813731CB1D9D19A5AB /* GYFuncUtils.m in Sources */,
-				FF58AD1607A33AD37357DCE32B1EF3B7 /* GYImageCropperViewController.m in Sources */,
-				0FA1948576F3C812020791D06D578B1C /* GYImageHandle.m in Sources */,
-				C395C1B2AB8C1DA5784E69A073E66EF6 /* GYImagePickerTool.m in Sources */,
-				DE1D9EC64674806ED0F449D4AFCDE67A /* GYKeyChain.m in Sources */,
-				7E343110DE75A40A337708A9ACA6F2B4 /* GYTabBar.m in Sources */,
-				768282C7E35F7D2C7558B1A03B33724E /* GYTabBarViewController.m in Sources */,
-				4BCE7FFA915224B8192FCC62D3C3793E /* NSString+GYExtend.m in Sources */,
-				686DA7A8C43D605C076E57EE4FE703C3 /* UIColor+GYExtend.m in Sources */,
-				F5BBF48E57AB36F330B6476707222A59 /* UITabBar+GYBadge.m in Sources */,
+				E71DFCDBECE00643968BD4A1F98D8B31 /* GY_Utils-dummy.m in Sources */,
+				857F42DDBFB7864BF79039DAE2FCF5FE /* GYAPPInfo.m in Sources */,
+				71F8135E21D2098025F9A0C929060FC3 /* GYDeviceData.m in Sources */,
+				96DDEFECF235DDFDFB3ABA9BC849E63B /* GYEncryption.m in Sources */,
+				8AA14996DAE2CC3BE238428D8B0D2EB3 /* GYFuncUtils.m in Sources */,
+				255AA3B5FCDBDEC29839C2A8A5923CD4 /* GYImageCropperViewController.m in Sources */,
+				6D802B62EB635E9F1AC3B63E5FBEFAF3 /* GYImageHandle.m in Sources */,
+				622FBE5748A467A361E88812553FE6F9 /* GYImagePickerTool.m in Sources */,
+				B33F8937C81617B92F94B4F888F3ECDD /* GYKeyChain.m in Sources */,
+				BA35A416FC06B0D575D678932D4DDED8 /* GYTabBar.m in Sources */,
+				059EE448FA582A3237A0A3ABAC3E1D2A /* GYTabBarViewController.m in Sources */,
+				25E1E01F1CB6A62EAED5EDC2000AD1BC /* NSString+GYExtend.m in Sources */,
+				EE50C5A27A85D668C124116E6211E9B7 /* UIColor+GYExtend.m in Sources */,
+				975F1603D203ACED6E770F52388260D1 /* UITabBar+GYBadge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +666,38 @@
 			};
 			name = Release;
 		};
+		621D85C34D4BC1554CA27B3C46203249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782DB76486C548452B1CB1BAD720D8A8 /* GY_Utils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GY_Utils/GY_Utils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GY_Utils/GY_Utils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GY_Utils/GY_Utils.modulemap";
+				PRODUCT_MODULE_NAME = GY_Utils;
+				PRODUCT_NAME = GY_Utils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -764,37 +796,6 @@
 			};
 			name = Release;
 		};
-		D8EDE4D3286E2B1C5D2B2A65B997FBCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67E6BB310DA2619765C9875C232C34FA /* GY_Utils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GY_Utils/GY_Utils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GY_Utils/GY_Utils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GY_Utils/GY_Utils.modulemap";
-				PRODUCT_MODULE_NAME = GY_Utils;
-				PRODUCT_NAME = GY_Utils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		ED352870E7CDB1BA584B2D22167AC75D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E55E078CD16CD6C16048079B675585A9 /* Pods-GY_Utils_Example.debug.xcconfig */;
@@ -828,9 +829,9 @@
 			};
 			name = Debug;
 		};
-		EE4DBC7418C9EFA666C25DD76A83FF40 /* Release */ = {
+		EEE79B4D1217847FE58D3F2A688A3AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67E6BB310DA2619765C9875C232C34FA /* GY_Utils.xcconfig */;
+			baseConfigurationReference = 782DB76486C548452B1CB1BAD720D8A8 /* GY_Utils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -854,11 +855,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -890,11 +890,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AAFD804B08497849D48DECA0BD05F70 /* Build configuration list for PBXNativeTarget "GY_Utils" */ = {
+		DAD8DCFB46845552CA6178B23F09D793 /* Build configuration list for PBXNativeTarget "GY_Utils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8EDE4D3286E2B1C5D2B2A65B997FBCF /* Debug */,
-				EE4DBC7418C9EFA666C25DD76A83FF40 /* Release */,
+				EEE79B4D1217847FE58D3F2A688A3AD0 /* Debug */,
+				621D85C34D4BC1554CA27B3C46203249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
