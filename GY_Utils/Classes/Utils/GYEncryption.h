@@ -10,7 +10,29 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+void *MMBase64Decode(
+                     const char *inputBuffer,
+                     size_t length,
+                     size_t *outputLength);
+
+char *MMBase64Encode(
+                     const void *inputBuffer,
+                     size_t length,
+                     bool separateLines,
+                     size_t *outputLength);
+
+
 @interface GYEncryption : NSObject
+
+#pragma mark base64
+
++ (NSData *)decodeFromData:(NSData*) data;
++ (NSData *)decodeFromString:(NSString *)aString;
+
++ (NSString *)encodeWithString:(NSString*) aString;
++ (NSString *)encodeWithData:(NSData*) data;
+// added by Hiroshi Hashiguchi
++ (NSString *)encodeWithSeparateLines:(NSData*) data lines:(BOOL)separateLines;
 
 #pragma mark md5
 
