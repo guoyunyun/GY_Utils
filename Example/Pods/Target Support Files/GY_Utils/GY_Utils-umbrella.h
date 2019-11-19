@@ -18,11 +18,13 @@
 #import "GYTabBarViewController.h"
 #import "UITabBar+GYBadge.h"
 #import "GYAPPInfo.h"
+#import "GYBase64.h"
 #import "GYDeviceData.h"
 #import "GYEncryption.h"
 #import "GYFuncUtils.h"
 #import "GYImageHandle.h"
 #import "GYKeyChain.h"
+#import "GYUIUtils.h"
 
 FOUNDATION_EXPORT double GY_UtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char GY_UtilsVersionString[];
