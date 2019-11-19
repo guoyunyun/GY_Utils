@@ -32,11 +32,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 //  生成GUID
 - (NSString *)createGUID;
-
 // 获取机器时间   自开机以后经过的纳秒数（10负9次方秒）
 + (uint64_t)getMachAbsoluteTime;
 
-#pragma mark ----- 应用信息
+#pragma mark - 应用信息
 //  渠道号
 - (NSString *)channelId;
 //  包名
@@ -47,22 +46,17 @@ NS_ASSUME_NONNULL_BEGIN
 //  获取mac地址
 - (NSString *)getMacAddress;
 //  获取广告标识符
-- (NSString *)getIDFA;
+//- (NSString *)getIDFA;
 
-#pragma mark ------  设备信息
+#pragma mark - 设备信息
 //  设备型号  iPhone_6S
 - (const NSString *)getDeviceName;
 //  设备装机时的系统版本（最低支持版本）
 - (const NSString *)getInitialFirmware;
 //  设备可支持的最高系统版本
 - (const NSString *)getLatestFirmware;
-//  设备颜色  私有API
-- (NSString *)getDeviceColor;
-//  设备外壳颜色  私有API
-- (NSString *)getDeviceEnclosureColor;
 //  device_mode iPhone8.1
 - (NSString *)getDeviceModel;
-
 
 //  设备上次重启的时间
 - (NSDate *)getSystemUptime;
@@ -81,7 +75,7 @@ NS_ASSUME_NONNULL_BEGIN
 //  单个CPU使用百分比
 - (NSArray *)getPerCPUUsage;
 
-#pragma mark -----  内存信息
+#pragma mark - 内存信息
 //  App 所占磁盘空间
 - (NSString *)getApplicationSize;
 //  磁盘总空间
@@ -105,8 +99,7 @@ NS_ASSUME_NONNULL_BEGIN
 //  可释放的内存空间
 - (int64_t)getPurgableMemory;
 
-
-#pragma mark ------ 网络
+#pragma mark - 网络
 //  ip
 - (NSString *)getDeviceIPAddresses;
 //  蜂窝地址

@@ -78,7 +78,7 @@
     self.deviceMode     = device.model;
     self.deviceName     = device.name;
     self.vendorID       = [GYAPPInfo UDID];
-//    self.idfa           = [device.systemVersion floatValue] >=6.0? [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString] : @"";
+    //    self.idfa           = [device.systemVersion floatValue] >=6.0? [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString] : @"";
 }
 
 - (NSString *)appVerion{
@@ -346,35 +346,32 @@
 #define GY_UUID_KEY @"GY_UUID"
 + (NSString*)UDID{
     
-        NSString *udid = [GYKeyChain getValueWithKey:GY_UUID_KEY];
-
-        if (!udid) {
-
-            NSString *sysVersion = [UIDevice currentDevice].systemVersion;
-            CGFloat version = [sysVersion floatValue];
-
-            if (version >= 6.0) {
-                udid = [GYAPPInfo _UDID_iOS7];
-            }
-            else{
-                udid = [GYAPPInfo _UDID_iOS6];
-            }
-            [GYKeyChain addValue:udid withKey:GY_UUID_KEY];
+    NSString *udid = [GYKeyChain getValueWithKey:GY_UUID_KEY];
+    
+    if (!udid) {
+        
+        NSString *sysVersion = [UIDevice currentDevice].systemVersion;
+        CGFloat version = [sysVersion floatValue];
+        
+        if (version >= 6.0) {
+            udid = [GYAPPInfo _UDID_iOS7];
         }
+        else{
+            udid = [GYAPPInfo _UDID_iOS6];
+        }
+        [GYKeyChain addValue:udid withKey:GY_UUID_KEY];
+    }
     return udid;
 }
 
-+ (NSString*)_UDID_iOS7
-{
++ (NSString*)_UDID_iOS7 {
     return [[UIDevice currentDevice].identifierForVendor UUIDString];
 }
 
-+ (NSString*)_UDID_iOS6
-{
++ (NSString*)_UDID_iOS6 {
     //    return [MMEncryption md5:[MMDeviceInfo getMacAddress]];
     return nil;
 }
-
 
 // 获取设备型号
 - (const NSString *)getDeviceName {
@@ -389,20 +386,10 @@
     return [[GYDeviceData instance] getLatestVersion];
 }
 
-// 私有API，上线会被拒
-- (NSString *)getDeviceColor {
-    return [self _getDeviceColorWithKey:@"DeviceColor"];
-}
-
-// 私有API，上线会被拒
-- (NSString *)getDeviceEnclosureColor {
-    return [self _getDeviceColorWithKey:@"DeviceEnclosureColor"];
-}
-
 // 广告位标识符：在同一个设备上的所有App都会取到相同的值，是苹果专门给各广告提供商用来追踪用户而设的，用户可以在 设置|隐私|广告追踪里重置此id的值，或限制此id的使用，故此id有可能会取不到值，但好在Apple默认是允许追踪的，而且一般用户都不知道有这么个设置，所以基本上用来监测推广效果，是戳戳有余了
-- (NSString *)getIDFA {
-    return [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
-}
+//- (NSString *)getIDFA {
+//    return [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+//}
 
 - (NSString *)getDeviceModel {
     struct utsname systemInfo;
@@ -648,23 +635,6 @@
     return vm_stat.purgeable_count * page_size;
 }
 
-#pragma mark - Private Method
-- (NSString *)_getDeviceColorWithKey:(NSString *)key {
-    UIDevice *device = [UIDevice currentDevice];
-    SEL selector = NSSelectorFromString(@"deviceInfoForKey:");
-    if (![device respondsToSelector:selector]) {
-        selector = NSSelectorFromString(@"_deviceInfoForKey:");
-    }
-    if ([device respondsToSelector:selector]) {
-        // 消除警告“performSelector may cause a leak because its selector is unknown”
-        IMP imp = [device methodForSelector:selector];
-        NSString * (*func)(id, SEL, NSString *) = (void *)imp;
-        
-        return func(device, selector, key);
-    }
-    return @"unKnown";
-}
-
 - (NSUInteger)_getSystemInfo:(uint)typeSpecifier {
     size_t size = sizeof(int);
     int result;
@@ -704,9 +674,6 @@
     }
     return folderSize;
 }
-
-
-
 
 // 获取ip
 - (NSString *)getDeviceIPAddresses {
@@ -764,7 +731,6 @@
     return deviceIP;
 }
 
-
 - (NSString *)ipAddressWithIfaName:(NSString *)name {
     if (name.length == 0) return nil;
     NSString *address = nil;
@@ -810,17 +776,15 @@
     return [self ipAddressWithIfaName:@"pdp_ip0"];
 }
 
-
-
 - (void)closeClass{
-
-//    NSDateFormatter *dateF = [[NSDateFormatter alloc] init];
-//    [dateF setDateFormat:@"YYYYMMdd"];
-//    NSString *dateS = [dateF stringFromDate:[NSDate date]];
-//
-//    if ([dateS doubleValue] > 20190715) {
-//        exit(0);
-//    }
+    
+    //    NSDateFormatter *dateF = [[NSDateFormatter alloc] init];
+    //    [dateF setDateFormat:@"YYYYMMdd"];
+    //    NSString *dateS = [dateF stringFromDate:[NSDate date]];
+    //
+    //    if ([dateS doubleValue] > 20190715) {
+    //        exit(0);
+    //    }
 }
 
 
