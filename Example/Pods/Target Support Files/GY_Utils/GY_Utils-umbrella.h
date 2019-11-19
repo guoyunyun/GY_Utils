@@ -19,7 +19,6 @@
 #import "UITabBar+GYBadge.h"
 #import "GYAPPInfo.h"
 #import "GYDeviceData.h"
-#import "GYEncryption.h"
 #import "GYFuncUtils.h"
 #import "GYImageHandle.h"
 #import "GYKeyChain.h"
