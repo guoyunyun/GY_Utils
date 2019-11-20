@@ -22,7 +22,7 @@ pod 'GY_Utils'
 
 ## Author
 
-L05T, 18515153602@163.com
+L05T, 953576191@QQ.com
 
 ## License
 
