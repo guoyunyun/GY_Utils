@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GY_Utils'
-  s.version          = '1.2.2'
+  s.version          = '1.2.3'
   s.summary          = 'My GY_Utils.'
 
 # This description is used to generate tags and improve search results.
