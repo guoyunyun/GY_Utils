@@ -11,6 +11,7 @@
 #endif
 
 #import "NSString+GYExtend.h"
+#import "UIApplication+GYApplication.h"
 #import "UIColor+GYExtend.h"
 #import "GYImageCropperViewController.h"
 #import "GYImagePickerTool.h"
